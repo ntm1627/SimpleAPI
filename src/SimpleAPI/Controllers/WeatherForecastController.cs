@@ -42,8 +42,8 @@ namespace SimpleAPI.Controllers
         [HttpGet ("{id}")]
         public ActionResult<string> Get(int id){
          //   return "Hello From Visual";       //Unit test will fail with this value
-              //  return "Agere Technologies";    //Unit test will pass with this value
-                return "Naod Agere";    //To make it fail
+                return "Agere Technologies";    //Unit test will pass with this value
+              //  return "Naod Agere";    //To make it fail
         }
 
     }
